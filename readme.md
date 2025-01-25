@@ -2,9 +2,9 @@
 
 **Project Title**: Personal Cloud Database
 
-**Project Description**: This project is a web application that allows users to add, view, and delete recipes from a personal cloud database. The application is built using Flask for the backend and MySQL for the database.
+**Project Description**: This project is a simple web application that allows users to add to a list of items
 
-**Project Goals**: The main goal of this project is to provide a simple and user-friendly interface for managing personal recipes. Users can add new recipes, view a list of existing recipes, and delete recipes they no longer need.
+**Project Goals**: .The orinal idea was going to be a recipie list with difference meals that you could add but I ended up switching it to a cool name list since it required much more time than i have in this sprint. However I feel I have done most of the heavy lifting this sprint and will now beable to focus on trying to make a more complete app.
 
 ## Instructions for Build and Use
 
@@ -18,9 +18,9 @@ Steps to build and/or run the software:
 Instructions for using the software:
 
 1. Open a web browser and navigate to `http://localhost:5000`.
-2. Use the form to add new recipes to the list.
-3. View the list of recipes on the main page.
-4. Delete recipes using the delete button next to each recipe.
+2. Use the form to add new names to the list.
+3. View the list of names on the main page.
+4. Delete names using the delete button next to each recipe.
 
 ## Development Environment 
 
@@ -28,7 +28,7 @@ To recreate the development environment, you need the following software and/or 
 
 * Python 3.x
 * Flask
-* MySQL
+* MySQL workbench
 * Requests
 
 ## Useful Websites to Learn More
@@ -43,6 +43,6 @@ I found these websites useful in developing this software:
 
 The following items I plan to fix, improve, and/or add to this project in the future:
 
-* [ ] Add user authentication to secure the application.
-* [ ] Implement search functionality to find recipes easily.
-* [ ] Improve the UI/UX design of the application.
+* [ ] Add user authentication to secure the application, 
+* [ ] improve ideas such as build a web app that more people would want to use
+* [ ] Improve the design of the application 
