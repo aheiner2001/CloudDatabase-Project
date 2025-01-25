@@ -1,0 +1,120 @@
+:root {
+    --background-color: #edf6f9;
+    --container-background-color: #fff;
+    --text-color: #006d77;
+    --label-color: #006d77;
+    --button-background-color: #005f66;
+    --button-hover-background-color: #004f56;
+    --border-radius: 8px;
+    --padding: 20px;
+    --font-size: 18px;
+    --font-size-small: 20px;
+    --font-size-large: 22px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    margin: 0;
+    padding: var(--padding);
+    font-size: var(--font-size);
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: var(--padding);
+    background-color: var(--container-background-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: var(--border-radius);
+}
+
+h1 {
+    text-align: center;
+    color: var(--text-color);
+    font-size: var(--font-size-large);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: var(--label-color);
+    font-size: var(--font-size);
+}
+
+input[type="text"], textarea {
+    margin-bottom: 15px;
+    height: 25px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    font-size: var(--font-size);
+}
+
+button, input[type="submit"] {
+    width: 100px;
+    height: 50px; /* Added height */
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--border-radius);
+    background-color: var(--button-background-color);
+    color: #fff;
+    cursor: pointer;
+    align-self: flex-start;
+    font-size: var(--font-size);
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: var(--button-hover-background-color);
+}
+
+ul {
+    max-height: 450px;
+    overflow-y: auto;
+    padding: var(--padding);
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    list-style-type: none;
+    font-size: var(--font-size);
+}
+
+ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li .delete-button {
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-size: var(--font-size);
+}
+
+ul li .delete-button:hover {
+    color: darkred;
+}
+
+ul li:hover {
+    background-color: #f9f9f9;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+select {
+    margin-bottom: 15px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    font-size: var(--font-size);
+}
